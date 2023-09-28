@@ -15,16 +15,16 @@ ul{
    background-color: #FFFFFF;
 }
 .logo{
-   color:  #2E2F42;
-   font-family: Raleway;
+   color: #4D5AE5;
+   font-family: "Raleway" , sans-serif;
    font-size: 18px;
    font-weight: 700;
-   line-height: 1.1666;
+   line-height: 1.17;
    letter-spacing: 0.54px;
    text-transform: uppercase;
 }
-.logo-web{
-   color: #4D5AE5;
+.logo-studio{
+   color: #2E2F42;
 }
 .navigation{
    color: #2E2F42;
@@ -33,13 +33,16 @@ ul{
    line-height: 1.5;
    letter-spacing: 0.32px;
 }
-.address{
+.heder-address{
+   font-style: normal;
+}
+.heder-address-link{
    color: #434455;
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.32px;
 }
-.navigation:hover , .navigation:focus , .address:hover , .address:focus{
+.navigation:hover , .navigation:focus , .heder-address-link:hover , .heder-address-link:focus{
    color: #404BBF;
 }
 
@@ -52,7 +55,7 @@ ul{
    text-align: center;
    font-size: 56px;
    font-weight: 700;
-   line-height: 1.071;
+   line-height: 1.07;
    letter-spacing: 1.12px;
 }
 .hero-image-button{
@@ -62,8 +65,6 @@ ul{
    line-height: 1.5;
    letter-spacing: 0.64px;
    background-color: #4D5AE5;
-   border-radius: 4px;
-   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
    cursor: pointer;
 }
 .hero-image-button:focus, .hero-image-button:hover{
@@ -73,9 +74,6 @@ ul{
 /* section_2 Company Benefits */
 .benefits{
    background-color: #FFF;
-}
-.benefits-title-main{
-   display: none;
 }
 .benefits-title{
    color: #2E2F42;
@@ -99,9 +97,12 @@ ul{
    text-align: center;
    font-size: 36px;
    font-weight: 700;
-   line-height: 1.111;
+   line-height: 1.11;
    letter-spacing: 0.72px;
    text-transform: capitalize;
+}
+.team-list li{
+   background-color: #FFFFFF;
 }
 .team-title{
    color: #2E2F42;
@@ -127,7 +128,7 @@ ul{
    text-align: center;
    font-size: 36px;
    font-weight: 700;
-   line-height: 1.111;
+   line-height: 1.11;
    letter-spacing: 0.72px;
    text-transform: capitalize;
 }
@@ -150,13 +151,16 @@ ul{
    background-color: #2E2F42;
 }
 .footer-logo{
-   color: #F4F4FD;
-   font-family: Raleway;
+   color: #4D5AE5;
+   font-family: "Raleway", sans-serif;
    font-size: 18px;
    font-weight: 700;
-   line-height: 1.166;
+   line-height: 1.17;
    letter-spacing: 0.54px;
    text-transform: uppercase;
+}
+.footer-logo-studio{
+   color: #F4F4FD;
 }
 .footer-text{
    color: #F4F4FD;
