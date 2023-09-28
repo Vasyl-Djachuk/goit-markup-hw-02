@@ -44,10 +44,10 @@ ul{
 }
 
 /* hero-image */
-.hero{
+.hero-image{
    background-color: #2E2F42;
 }
-.hero-title{
+.hero-image-title{
    color: #FFF;
    text-align: center;
    font-size: 56px;
@@ -55,7 +55,7 @@ ul{
    line-height: 1.071;
    letter-spacing: 1.12px;
 }
-.hero-button{
+.hero-image-button{
    color: #FFF;
    font-size: 16px;
    font-weight: 500;
@@ -66,11 +66,11 @@ ul{
    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
    cursor: pointer;
 }
-.hero-button:focus, .hero-button:hover{
+.hero-image-button:focus, .hero-image-button:hover{
    background-color: #404BBF;
 } 
 
-/* section_2 Benefits */
+/* section_2 Company Benefits */
 .benefits{
    background-color: #FFF;
 }
